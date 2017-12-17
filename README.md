@@ -25,6 +25,10 @@ optional arguments:
 
 A Docker image `bdeinsalyon/pgbackup` is also available
 
+## ToDo
+
+* Implement Duplicity (http://duplicity.nongnu.org/) as backup storage
+
 ## License
 
 This script is given under MIT License.
