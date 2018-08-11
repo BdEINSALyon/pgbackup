@@ -8,7 +8,7 @@ RUN wget https://get.enterprisedb.com/postgresql/postgresql-10.4-1-linux-x64-bin
 
 RUN wget https://launchpadlibrarian.net/358695615/duplicity-0.7.17.tar.gz &&\
     tar xf duplicity-0.7.17.tar.gz &&\
-    rm -rf duplicity-0.7.17.tar.gz
+    rm -rf duplicity-0.7.17.tar.gz &&\
     mv duplicity-0.7.17 duplicity
 
 WORKDIR /backup
