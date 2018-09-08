@@ -18,7 +18,7 @@ p.add('--ftp', required=True, help='FTP url (e.g. ftp://backup:password@backup.n
 p.add('--pgdump', required=False, help='pg_dump path command',
       env_var='PG_DUMP_COMMAND', default='pg_dump')
 p.add('--max', required=False, help='maximum count of backups',
-      env_var='MAX_FILES', default=5)
+      env_var='MAX_FILES', default=100)
 p.add('--name', required=False, help='backup name',
       env_var='BACKUP_NAME', default='manual_backup')
 options = p.parse_args()
